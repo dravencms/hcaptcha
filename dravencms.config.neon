@@ -6,8 +6,8 @@ webloader:
     js:
         admin: 
             remoteFiles:
-                - "https://hcaptcha.com/1/api.js"
+                - "https://hcaptcha.com/1/api.js?recaptchacompat=off"
                 
         frontend:
             remoteFiles:
-                - "https://hcaptcha.com/1/api.js"
+                - "https://hcaptcha.com/1/api.js?recaptchacompat=off"
