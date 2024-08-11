@@ -1,0 +1,13 @@
+extensions:
+    dravencms.hcaptcha: Dravencms\HCaptcha\DI\HCaptchaExtension
+
+
+webloader:
+    js:
+        admin: 
+            remoteFiles:
+                - "https://hcaptcha.com/1/api.js"
+                
+        frontend:
+            remoteFiles:
+                - "https://hcaptcha.com/1/api.js"

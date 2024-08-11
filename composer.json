@@ -1,0 +1,34 @@
+{
+  "name": "dravencms/hcaptcha",
+  "type": "dravencms-package",
+  "description": "DravenCMS hCaptcha",
+  "keywords": [
+    "dravencms",
+    "hcaptcha"
+  ],
+  "license": [
+    "LGPL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Adam Schubert"
+    }
+  ],
+  "provide": {
+    "dravencms/captcha-implementation": "0.0.1"
+  },
+  "require": {
+    "dravencms/icaptcha": ">=0.0.1",
+    "mitloshuk/hcaptcha": "^1.2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dravencms\\HCaptcha\\": "src/"
+    }
+  },
+  "extra": {
+    "dravencms": {
+      "configuration": "dravencms.config.neon"
+    }
+  }
+}
